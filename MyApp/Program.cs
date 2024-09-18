@@ -6,7 +6,9 @@
         private static void Main(string[] args)
         {
 
-            FloatCalculator.CalculateFloats();
+            //FloatCalculator.CalculateFloats();
+            //StringComponent.CalculateStrings();
+            //VariableComponent.CalculateVariables();
 
             string username = "Sebastian Weissenborn";
 
@@ -43,6 +45,7 @@
             // Shortcuts:
             // Ctrl + K, then Ctrl + C (this will comment out the selected block)
             // Press Ctrl + K, then Ctrl + U (this will uncomment the selected block)
+            // mark words: alt + shift + . (repeatedly)
 
             // Good to know:
 
