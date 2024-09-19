@@ -6,8 +6,8 @@
     {
 
         //Variable in class level/scope/ scope
-        static string username = "Hans";
-  
+        //static string username = "Hans";
+
         //private static void Main(string[] args)
         //// Main method from which the program starts, scope limited to the class in which it was defined
         //{
@@ -21,6 +21,7 @@
         //    //BoolCalculator.CalculateBool();
         //    //CharCalculator.CalculateChar();
 
+
         //    Console.ReadKey(); // Wartet auf eine Taste, damit die Konsole offen bleibt
 
         //}
@@ -28,16 +29,22 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Bitte trage deinen namen ein:");
-            //e.g we call the Console Class and select one method
+            //AgeCalculator.CalculateAge();
 
-            string username = "Sebastian";
-            string name = Console.ReadLine();
-            // return value string, when you slide over the method you see the return value string "strin?Console.readLine()"
+            BreakpointCalculator.CalculateBreakPoint();
 
-            Console.WriteLine("Dein Name ist also: " + name  );
+            //Console.WriteLine("Bitte trage deinen namen ein:");
+            ////e.g we call the Console Class and select one method
+
+            //string username = "Sebastian";
+            //string name = Console.ReadLine();
+            //// return value string, when you slide over the method you see the return value string "strin?Console.readLine()"
+
+            //Console.WriteLine("Dein Name ist also: " + name  );
+
+            Console.ReadKey();
         }
-
+       
     }
 }
 
@@ -56,6 +63,7 @@
 // Console.ReadLine(); 
 // Wartet auf eine Eingabe, damit die Konsole offen bleibt
 // Zoom in/out: strg + mouse rad
+// Clean Cache & Binary Files => right click on MyApp.sIn => "Erneut Erstellen"
 
 //Longer Comments:
 /* 
