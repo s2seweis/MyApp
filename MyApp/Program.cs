@@ -28,9 +28,9 @@
 
         static void Main(string[] args)
         {
+            LoopCalculator.CalculateLoop();
 
-            ArrayCalculator.CalculateArray();
-
+            //ArrayCalculator.CalculateArray();
             //AgeCalculator.CalculateAge();
             //BreakpointCalculator.CalculateBreakPoint();
 
