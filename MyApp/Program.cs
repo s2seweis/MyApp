@@ -1,5 +1,5 @@
 ﻿namespace MyApp
-    // Namespace-Scope
+// Namespace-Scope
 {
     internal class Program
     // Class-Scope
@@ -29,9 +29,10 @@
         static void Main(string[] args)
         {
 
-            //AgeCalculator.CalculateAge();
+            ArrayCalculator.CalculateArray();
 
-            BreakpointCalculator.CalculateBreakPoint();
+            //AgeCalculator.CalculateAge();
+            //BreakpointCalculator.CalculateBreakPoint();
 
             //Console.WriteLine("Bitte trage deinen namen ein:");
             ////e.g we call the Console Class and select one method
@@ -43,8 +44,10 @@
             //Console.WriteLine("Dein Name ist also: " + name  );
 
             Console.ReadKey();
+
+           
         }
-       
+        
     }
 }
 
@@ -64,7 +67,7 @@
 // Wartet auf eine Eingabe, damit die Konsole offen bleibt
 // Zoom in/out: strg + mouse rad
 // Clean Cache & Binary Files => right click on MyApp.sIn => "Erneut Erstellen"
-
+// Shortcuts hinzufügen: e.g => xml file erstellen  => mit .snippet Endung abspeichern => VS => Extras => Codeschnipsel Manager => C# => Importieren in MyCodeSnippets
 //Longer Comments:
 /* 
  * 
