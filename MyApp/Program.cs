@@ -28,7 +28,9 @@
 
         static void Main(string[] args)
         {
-            NumberCollector.CollectNumbers();
+            //NumberCollector.CollectNumbers();
+
+            AssignmentEmail.CalculateEmail();
 
             //DoWhile.CalculateDoWhile();
 
