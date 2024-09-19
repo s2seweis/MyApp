@@ -28,8 +28,15 @@
 
         static void Main(string[] args)
         {
-            LoopCalculator.CalculateLoop();
+            NumberCollector.CollectNumbers();
 
+            //DoWhile.CalculateDoWhile();
+
+            //WhileGamePro.WhileGame
+            //Advaned();
+            //WhileGame.WhileGameBeginner();
+
+            //LoopCalculator.CalculateLoop();
             //ArrayCalculator.CalculateArray();
             //AgeCalculator.CalculateAge();
             //BreakpointCalculator.CalculateBreakPoint();
