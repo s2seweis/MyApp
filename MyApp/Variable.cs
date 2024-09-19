@@ -1,25 +1,27 @@
-//namespace MyApp
-//{
-//    internal class VariablesComponent
-//    {
-//        public static void CalculateVariables()
-//        {
-//            string username = "Sebastian Weissenborn";
+namespace MyApp
+{
+    internal class VariableCalculator
+    {
+        public static void CalculateVariables()
+        {
+            string username = "Sebastian Weissenborn";
 
-//            Console.WriteLine(username);
+            Console.WriteLine(username);
 
-//            int age = 36;
-//            age = 30;
+            int age = 36;
+            age = 30;
 
-//            Console.WriteLine(age);
+            Console.WriteLine(age);
 
-//            int a = 100;
-//            int b = 200;
+            int a = 100;
+            int b = 200;
 
-//            int result = a + b;
+            int result = a + b;
 
-//            Console.WriteLine(result);
+            Console.WriteLine(result);
 
-//        }
-//    }
-//}
+            // Last assigned value is the current value
+
+        }
+    }
+}
