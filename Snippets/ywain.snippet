@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>CalculateExample Snippet</Title>
+    <Author>Sebastian</Author>
+    <Description>Ein Snippet, um eine einfache Berechnung durchzuführen.</Description>
+    <Shortcut>calcExample</Shortcut>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType> <!-- Erlaubt Einfügen in Methoden -->
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <!-- Platzhalter für Einfügen -->
+      <Literal>
+        <ID>num1</ID>
+        <ToolTip>Erste Zahl</ToolTip>
+        <Default>10</Default>
+      </Literal>
+      <Literal>
+        <ID>num2</ID>
+        <ToolTip>Zweite Zahl</ToolTip>
+        <Default>5</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+        namespace MyApp
+        {
+            internal class Example
+            {
+                public static void CalculateExample()
+                {
+                    // Methoden Scope - Hier wird eine einfache Berechnung durchgeführt
+                    
+                    string result = "Ywain";
+
+                    Console.WriteLine("Hero: " + result);
+                }
+            }
+        }
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
