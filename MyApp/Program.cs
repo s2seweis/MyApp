@@ -28,16 +28,15 @@
 
         static void Main(string[] args)
         {
+            //Operators.CalculateOperators();
+            AssignmentIf.CalculateAssignmentIf();
+
+            //IfStatements.CalculateIfStatements();
             //NumberCollector.CollectNumbers();
-
-            AssignmentEmail.CalculateEmail();
-
+            //AssignmentEmail.CalculateEmail();
             //DoWhile.CalculateDoWhile();
-
-            //WhileGamePro.WhileGame
-            //Advaned();
+            //WhileGamePro.WhileGameAdvaned();
             //WhileGame.WhileGameBeginner();
-
             //LoopCalculator.CalculateLoop();
             //ArrayCalculator.CalculateArray();
             //AgeCalculator.CalculateAge();
