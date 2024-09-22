@@ -1,4 +1,4 @@
-namespace MyApp
+namespace MyApp.Assignment
 {
     internal class AssignmentEmail
     {

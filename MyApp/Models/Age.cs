@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApp
+namespace MyApp.Models
 {
     internal class AgeCalculator
     {
