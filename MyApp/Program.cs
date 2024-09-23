@@ -6,7 +6,7 @@ using MyApp.Models;
 using MyApp.Assignment;
 using MyApp.ObjectOriented;
 
-//using MyApp.BankAccount;
+using MyApp.BankAccount;
 
 //using System.ComponentModel.DataAnnotations;
 
@@ -20,6 +20,7 @@ using MyApp.ObjectOriented;
 
 namespace MyApp
 // Namespace-Scope
+ 
 {
     internal class Program
     // Class-Scope
@@ -32,6 +33,7 @@ namespace MyApp
             // #######################################################
             // Bank Account Project
 
+            IndexEntryTwo.CalculateIndexTwo();
 
 
             // #######################################################
@@ -100,7 +102,7 @@ namespace MyApp
         // Press Ctrl + K, then Ctrl + U (this will uncomment the selected block)
         // mark words: alt + shift + . (repeatedly)
 
-        // Good to know:
+        // Important:
         // Console.ReadLine(); 
         // Wartet auf eine Eingabe, damit die Konsole offen bleibt
         // Zoom in/out: strg + mouse rad
@@ -109,7 +111,11 @@ namespace MyApp
         // return value string, when you slide over the method you see the return value string "strin?Console.readLine()"
         // Klasse hinzufügen => Rechts Klick auf den Projelt Ordner "MyApp" => "Hinzufügen" => "Neues Element hinzufügen" => 
 
-        // Right click on MyApp => Ordner im Datei Explorer öffnen => bin => Debug => net8.0 => MyApp.exe (can be used to send somone the project)    
+        // Right click on MyApp => Ordner im Datei Explorer öffnen => bin => Debug => net8.0 => MyApp.exe (can be used to send somone the project)
+        
+        // Very Importand:
+        //Ansicht => Fehlerliste => Shows erros like: Compile-Time Erros, Warnings, Messages, Build Erros, IntelliSense Erros, 
+        // Unter den Fehlern muss eine Rote Linie sein
 
         //Longer Comments:
         /* 

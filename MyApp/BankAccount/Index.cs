@@ -1,42 +1,55 @@
+using System;
 
-namespace MyApp
+namespace MyApp.BankAccount // Changed namespace to avoid conflict with class name
 {
-    internal class BankAccount
+    internal class IndexEntryTwo
     {
-
-        public string Number { get; private set; } 
-        public string Owner { get; private set; }
-        public float Balance { get; private set; }
-
-        public BankAccount(string number, string owner, float initialbalance)
+        public static void CalculateIndexTwo()
         {
-            Number = number;
-            Owner = owner;  
-            Balance = initialbalance;   
-        }
-
-        public void MakeDeposit(float amount)
-        {
-            Balance += amount;
-
-        }
-
-        public void MakeWithdrawl(float amount)
-        {
-            if(amount <= Balance)
+            // Correct constructor usage, matching the new class name
+            BankAccountClass account = new BankAccountClass(
+                "1234567890",
+                "Sebastian Weissenborn",
+                100f // float (or change to decimal if you prefer)
+            );
+            
+            while (true)
             {
-                Balance -= amount;  
-            }
-            else
-            {
-                Console.WriteLine("Unzureichender Saldo");
-            }
-        }
+                Console.WriteLine("Bitte wählen Sie eine Aktion aus:");
+                Console.WriteLine("1. Kontostand anzeigen");
+                Console.WriteLine("2. Einzahlung machen");
+                Console.WriteLine("3. Auszahlung machen");
+                Console.WriteLine("4. Beenden");
 
+                string input = Console.ReadLine();
 
-        public void PrintBalance()
-        {
-            Console.WriteLine($"Kontostand von {Owner}: {Balance}");
+                if (input == "1")
+                {
+                    account.PrintBalance();
+                }
+                else if (input == "2")
+                {
+                    // Fixed missing parenthesis
+                    Console.WriteLine("Bitte geben Sie den Betrag ein, den Sie einzahlen möchten:");
+                    float depositAmount = float.Parse(Console.ReadLine());
+                    account.MakeDeposit(depositAmount);
+                }
+                else if (input == "3")
+                {
+                    // Fixed missing parenthesis
+                    Console.WriteLine("Bitte geben Sie den Betrag ein, den Sie abheben möchten:");
+                    float withdrawalAmount = float.Parse(Console.ReadLine());
+                    account.MakeWithdrawal(withdrawalAmount); // Corrected method name
+                }
+                else if (input == "4")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Ungültige Auswahl. Bitte versuchen Sie es erneut.");
+                }
+            }
         }
     }
 }
