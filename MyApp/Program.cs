@@ -5,6 +5,9 @@ using MyApp.ToDoListProject;
 using MyApp.Models;
 using MyApp.Assignment;
 using MyApp.ObjectOriented;
+
+//using MyApp.BankAccount;
+
 //using System.ComponentModel.DataAnnotations;
 
 //With using you can include other namespaces
@@ -27,11 +30,15 @@ namespace MyApp
         {
 
             // #######################################################
+            // Bank Account Project
+
+
+
+            // #######################################################
             //Objektorientiertes Programmieren Teil1
             //Part1(Class = ObjectOrientedOne) + Part2(Method = CalculateObjectOrientedOne)
-            ObjectOrientedOne.CalculateObjectOrientedOne();
 
-            IndexEntry.CalculateIndex();
+            //IndexEntry.CalculateIndex();
 
             //we create an instance of the car
             //Car myCar = new Car();
