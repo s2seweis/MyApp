@@ -4,6 +4,13 @@
 using MyApp.ToDoListProject;
 using MyApp.Models;
 using MyApp.Assignment;
+using MyApp.ObjectOriented;
+//using System.ComponentModel.DataAnnotations;
+
+//With using you can include other namespaces
+
+
+
 
 // #######################################################
 
@@ -20,9 +27,24 @@ namespace MyApp
         {
 
             // #######################################################
+            //Objektorientiertes Programmieren Teil1
+            //Part1(Class = ObjectOrientedOne) + Part2(Method = CalculateObjectOrientedOne)
+            ObjectOrientedOne.CalculateObjectOrientedOne();
+
+            IndexEntry.CalculateIndex();
+
+            //we create an instance of the car
+            //Car myCar = new Car();
+            //myCar.Honk();
+            // Car is the class we defined elsewhere
+            // myCar is the variable that hold the reference to the newly created Car object
+            // new Car() creates a new object (an instance) of the class car by calling its constructor
+
+
+            // #######################################################
             //Projects:
 
-            ToDoList.CalculateToDoList(); //works
+            //ToDoList.CalculateToDoList(); //works
 
             // #######################################################
             //Assignments:
@@ -78,6 +100,7 @@ namespace MyApp
         // Clean Cache & Binary Files => right click on MyApp.sIn => "Erneut Erstellen"
         // Shortcuts hinzufügen: e.g => xml file erstellen  => mit .snippet Endung abspeichern => VS => Extras => Codeschnipsel Manager => C# => Importieren in MyCodeSnippets
         // return value string, when you slide over the method you see the return value string "strin?Console.readLine()"
+        // Klasse hinzufügen => Rechts Klick auf den Projelt Ordner "MyApp" => "Hinzufügen" => "Neues Element hinzufügen" => 
 
         // Right click on MyApp => Ordner im Datei Explorer öffnen => bin => Debug => net8.0 => MyApp.exe (can be used to send somone the project)    
 
