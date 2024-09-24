@@ -25,10 +25,16 @@ namespace MyApp
         //// Main method from which the program starts, scope limited to the class in which it was defined
         {
 
+
+            // #######################################################
+            // Assignment - List
+
+            IndexEntryAssignment.CalculateIndexAssignment();
+
             // #######################################################
             //Create List
 
-            IndexEntryThree.CalculateIndexThree();
+            //IndexEntryThree.CalculateIndexThree();
 
             // #######################################################
             // Bank Account Project

@@ -7,28 +7,44 @@ namespace MyApp.List
     {
         public static void CalculateIndexThree()
         {
-            // Liste korrekt initialisieren und mit Werten füllen
-            List<string> names = new List<string>
+
+            // Liste der Studenten erstellen
+            // import from students.cs => defined as class there
+            List<StudentList> students = new List<StudentList>
             {
-                "Jannick", "Marc", "Julia"
+                new StudentList(1, "John", 3.5f),
+                new StudentList(2, "Jane", 3.8f),
+                new StudentList(3, "Mark", 3.2f)
             };
 
-            //Element Hinzufügen
-            names.Add("Maria");
 
-            //Mark wird durch Peter ersetzt
-            names[1] = "Peter";
+            // #######################################################
 
-            // Das zweite Element der Liste ausgeben
-
-            Console.WriteLine(names[3]); // Ausgabe: Marc
-
-            foreach (string name in names)
+            // 1. Studenteninformationen anzeigen
+            Console.WriteLine("Liste der Studenten:");
+            foreach (var student in students)
             {
-
-                Console.WriteLine(name);
+                Console.WriteLine($"ID: {student.Id}, Name: {student.Name}, GPA: {student.GradePointAverage}");
             }
+
+            // #######################################################
+
+            // 2. Durchschnittlichen NC (Grade Point Average) berechnen
+            float totalGPA = 0;
+            foreach (var student in students)
+            {
+                totalGPA += student.GradePointAverage;
+            }
+
+            float averageGPA = totalGPA / students.Count;
+
+            // 3. Durchschnittlicher NC ausgeben
+            Console.WriteLine($"Der durchschnittliche NC der Studenten ist: {averageGPA}");
+
+        
         }
+
     }
+    
 
 }

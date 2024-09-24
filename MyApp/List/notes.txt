@@ -39,3 +39,9 @@
          * entfernt werden. Im Gegensatz zu Arrays, die eine feste Größe haben, 
          * kann eine Liste also dynamisch wachsen und schrumpfen.
          * */
+
+         Wann Array?
+         Fixe Anzahl von Elemente
+
+         Wann Liste?
+         Dynamische Azahl von Elementen => Elemente können ergänzt werden
