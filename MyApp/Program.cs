@@ -5,18 +5,13 @@ using MyApp.ToDoListProject;
 using MyApp.Models;
 using MyApp.Assignment;
 using MyApp.ObjectOriented;
-
 using MyApp.BankAccount;
 
-//using System.ComponentModel.DataAnnotations;
+using MyApp.List;
 
 //With using you can include other namespaces
 
-
-
-
 // #######################################################
-
 
 namespace MyApp
 // Namespace-Scope
@@ -31,9 +26,14 @@ namespace MyApp
         {
 
             // #######################################################
+            //Create List
+
+            IndexEntryThree.CalculateIndexThree();
+
+            // #######################################################
             // Bank Account Project
 
-            IndexEntryTwo.CalculateIndexTwo();
+            //IndexEntryTwo.CalculateIndexTwo();
 
 
             // #######################################################

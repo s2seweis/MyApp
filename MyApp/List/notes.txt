@@ -1,0 +1,41 @@
+            
+            //Hinzufügen
+            ints.Add(100); // Elemente zur Liste hinzufügen
+            ints.Add(200);
+            ints.Add(300);
+
+            // Entfernen
+            ints.Remove(100);
+            bool success = ints.Remove(100);
+
+            // Clear | Remove all Elements from the List
+            ints.Clear();
+
+            // Einfügem am Index | Auf dem Index 1 das Item 500 einfügen
+            ints.Insert(1, 500);
+
+            // Löschen am Index | Das Elemt auf Index 1 entfernen
+            ints.RemoveAt(1);
+
+            // Index holen
+            int index = ints.IndexOf(100);
+
+            // Count
+            int count = ints.count;
+
+         /*Im Main-Methodenkontext benötigt man keinen expliziten Konstruktor, 
+         * um Code auszuführen. Die Main-Methode ist der Einstiegspunkt des Programms, 
+         * und in ihr können Objekte direkt erstellt und Methoden aufgerufen werden. 
+         * Ein Konstruktor ist nur notwendig, wenn du eine Instanz einer Klasse erstellst 
+         * und möchtest, dass beim Erstellen dieser Instanz bestimmte Initialisierungen 
+         * oder Aktionen ausgeführt werden. 
+         * */
+
+         /*In C# ist eine Liste (List<T>) eine generische Sammlung, 
+         * die eine geordnete Sequenz von Elementen desselben Typs speichert. 
+         * Sie gehört zum Namespace System.Collections.
+         * Generic und bietet eine flexible Möglichkeit, Daten zu speichern, 
+         * da ihre Größe dynamisch angepasst wird, wenn Elemente hinzugefügt oder 
+         * entfernt werden. Im Gegensatz zu Arrays, die eine feste Größe haben, 
+         * kann eine Liste also dynamisch wachsen und schrumpfen.
+         * */
