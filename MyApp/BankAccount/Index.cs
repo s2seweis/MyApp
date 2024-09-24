@@ -6,12 +6,28 @@ namespace MyApp.BankAccount // Changed namespace to avoid conflict with class na
     {
         public static void CalculateIndexTwo()
         {
+
+
+            Console.WriteLine("Bitte geben Sie ihren Name ein:");
+            string name = Console.ReadLine();
+
+
+            Console.WriteLine("Bitte geben Sie Ihre Kontennummer ein:");
+            string number = Console.ReadLine();
+
+
+            Console.WriteLine("Bitte geben Sie ihren Kontostand ein:");
+            float initialBalance = float.Parse(Console.ReadLine());
+
             // Correct constructor usage, matching the new class name
             BankAccountClass account = new BankAccountClass(
-                "1234567890",
-                "Sebastian Weissenborn",
-                100f // float (or change to decimal if you prefer)
-            );
+                //"1234567890",
+                number,
+                //"Sebastian Weissenborn",
+                name,
+                //100f // float (or change to decimal if you prefer)
+                initialBalance
+            ); ;
             
             while (true)
             {
