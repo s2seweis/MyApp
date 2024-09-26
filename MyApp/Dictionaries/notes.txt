@@ -1,0 +1,52 @@
+Dictionaries
+
+In C# ist ein Dictionary eine Sammlung von Schlüssel-Wert-Paaren, 
+bei der jeder Schlüssel eindeutig sein muss. Es wird oft verwendet, 
+um Daten schnell nach einem Schlüssel zu suchen.
+
+4 Beispiele:
+
+Telefonbuch:
+Du kannst ein Dictionary verwenden, um Namen (Schlüssel) mit Telefonnummern (Werten) zu verknüpfen.
+Schlüssel: "Thomas", "Anna"
+Werte: "123456", "987654"
+
+Ländercodes:
+Ein Dictionary könnte Länderkürzel (Schlüssel) den vollständigen Ländernamen (Wert) zuordnen.
+Schlüssel: "DE", "PH"
+Werte: "Deutschland", "Philippinen"
+
+Produktpreis-Liste:
+Hier wird der Produktname (Schlüssel) dem Preis (Wert) zugeordnet.
+Schlüssel: "Apfel", "Banane"
+Werte: 1.20€, 0.80€
+
+Studenten-ID:
+Studenten-IDs (Schlüssel) sind mit den Namen der Studenten (Wert) verknüpft.
+Schlüssel: 101, 102
+Werte: "Max", "Lisa"
+
+Im Zusammenhang mit einem Dictionary in C# 
+(oder allgemein in der Informatik) bedeutet O(1), 
+dass die Operationen, wie das Einfügen, 
+Entfernen oder Abrufen eines Wertes, eine konstante Zeit benötigen, 
+unabhängig von der Größe des Dictionaries.
+
+Das bedeutet, dass:
+Einfügen eines Wertes (Insert): 
+In O(1) wird der neue Wert direkt in den Speicher eingefügt, 
+da Dictionaries als Hashtabellen implementiert sind.
+
+Abrufen eines Wertes (Lookup): 
+Das Dictionary kann den Schlüssel direkt in O(1) Zeit finden, 
+da der Hashwert des Schlüssels berechnet wird, um auf den Speicherort zuzugreifen.
+
+Entfernen eines Wertes (Remove): 
+Ähnlich wie beim Lookup kann ein Element in konstanter Zeit entfernt werden, 
+wenn der Schlüssel gefunden wird.
+Im Grunde beschreibt O(1), 
+dass diese Operationen unabhängig von der Anzahl der Elemente im Dictionary immer etwa gleich schnell ablaufen.
+
+!!!
+Die Funktionsweise eines Dictionaries in C# ähnelt tatsächlich einem Index in einer Datenbank. 
+Beide Strukturen nutzen ein ähnliches Prinzip, um den schnellen Zugriff auf Daten zu ermöglichen
