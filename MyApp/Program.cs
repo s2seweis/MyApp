@@ -7,8 +7,9 @@ using MyApp.Assignment;
 using MyApp.ObjectOriented;
 using MyApp.BankAccount;
 using MyApp.List;
-
 using MyApp.Dictionaries;
+
+using MyApp.Enums;
 
 //With using you can include other namespaces
 
@@ -28,9 +29,14 @@ namespace MyApp
 
 
             // #######################################################
+            //Enum
+
+            IndexEntryEnum.CalculateIndexEnum();
+
+            // #######################################################
             //Dictionaries
 
-            IndexEntryDictionary.CalculateIndexDictionary();
+            //IndexEntryDictionary.CalculateIndexDictionary();
 
 
             // #######################################################

@@ -5,8 +5,8 @@ namespace MyApp.Dictionaries
     {
         public static void CalculateIndexDictionary()
         {
-           
-
+            //Dictionary.CalculateDictionary();
+            ExampleDictionary.CalculateExampleDictionary();
         }
     }
 

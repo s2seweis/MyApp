@@ -46,6 +46,7 @@ Entfernen eines Wertes (Remove):
 wenn der Schlüssel gefunden wird.
 Im Grunde beschreibt O(1), 
 dass diese Operationen unabhängig von der Anzahl der Elemente im Dictionary immer etwa gleich schnell ablaufen.
+people.Clear();
 
 !!!
 Die Funktionsweise eines Dictionaries in C# ähnelt tatsächlich einem Index in einer Datenbank. 
