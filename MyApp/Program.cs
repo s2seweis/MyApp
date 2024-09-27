@@ -9,7 +9,9 @@ using MyApp.BankAccount;
 using MyApp.List;
 using MyApp.Dictionaries;
 
-using MyApp.Enums;
+using MyApp.SwitchEnum;
+using MyApp.NestedLoops;
+
 
 //With using you can include other namespaces
 
@@ -29,9 +31,14 @@ namespace MyApp
 
 
             // #######################################################
-            //Enum
+            // NestedLoops
 
-            IndexEntryEnum.CalculateIndexEnum();
+            IndexEntryNestedLoops.CalculateIndexNestdLoops();
+
+            // #######################################################
+            // Enum
+
+            //IndexEntrySwitchEnum.CalculateIndexSwitchEnum();
 
             // #######################################################
             //Dictionaries
@@ -45,7 +52,7 @@ namespace MyApp
             //IndexEntryAssignment.CalculateIndexAssignment();
 
             // #######################################################
-            //Create List
+            // Create List
 
             //IndexEntryThree.CalculateIndexThree();
 
@@ -56,8 +63,8 @@ namespace MyApp
 
 
             // #######################################################
-            //Objektorientiertes Programmieren Teil1
-            //Part1(Class = ObjectOrientedOne) + Part2(Method = CalculateObjectOrientedOne)
+            // Objektorientiertes Programmieren Teil1
+            // Part1(Class = ObjectOrientedOne) + Part2(Method = CalculateObjectOrientedOne)
 
             //IndexEntry.CalculateIndex();
 
@@ -75,7 +82,7 @@ namespace MyApp
             //ToDoList.CalculateToDoList(); //works
 
             // #######################################################
-            //Assignments:
+            // Assignments:
 
             //AssignmentEmail.CalculateEmail();
             //WhileGamePro.WhileGameAdvaned();
@@ -83,7 +90,7 @@ namespace MyApp
             //AssigmnetIf.CalculateAssignmentIf();
 
             // #######################################################
-            //Models:
+            // Models:
 
             //FloatCalculator.CalculateFloats();
             //StringCalculator.CalculateStrings();
@@ -140,3 +147,6 @@ namespace MyApp
         /* 
          * 
          */
+
+        //Auto Format Shortcut:
+        // Strg k + Strg D

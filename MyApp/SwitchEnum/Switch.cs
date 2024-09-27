@@ -1,9 +1,9 @@
 
-namespace MyApp
+namespace MyApp.SwitchEnum
 {
-    internal class Enum
+    internal class Switch
     {
-        public static void CalculateEnum()
+        public static void CalculateSwitch()
         {
             // Switches are, in certain cases, a simpler and cleaner alternative to if-else statements in C#,
             // especially when checking multiple conditions for a single variable.
