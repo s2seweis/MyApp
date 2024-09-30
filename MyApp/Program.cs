@@ -12,8 +12,8 @@ using MyApp.SwitchEnum;
 using MyApp.NestedLoops;
 
 using MyApp.FoldersAndPaths;
-//using System;
-//using System.IO;
+using System;
+using System.IO;
 
 
 //With using you can include other namespaces
@@ -32,11 +32,10 @@ namespace MyApp
         //// Main method from which the program starts, scope limited to the class in which it was defined
         {
 
-
             // #######################################################
             // Folders and Paths
 
-            IndexEntryFoldersAndPaths.CalculateFoldersAndPaths();
+            IndexEntryFoldersAndPaths.CalculateIndexFolderAndPaths();
 
             // #######################################################
             // NestedLoops
