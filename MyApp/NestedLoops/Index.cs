@@ -5,7 +5,8 @@ namespace MyApp.NestedLoops
     {
         public static void CalculateIndexNestdLoops()
         {
-            NestedLoops.CalculateNestedLoops();
+            //NestedLoopsForeach.CalculateNestedLoopForeach();
+            NestedLoopsFor.CalculateNestedLoopFor();
         }
     }
 }

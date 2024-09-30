@@ -8,9 +8,12 @@ using MyApp.ObjectOriented;
 using MyApp.BankAccount;
 using MyApp.List;
 using MyApp.Dictionaries;
-
 using MyApp.SwitchEnum;
 using MyApp.NestedLoops;
+
+using MyApp.FoldersAndPaths;
+//using System;
+//using System.IO;
 
 
 //With using you can include other namespaces
@@ -31,9 +34,14 @@ namespace MyApp
 
 
             // #######################################################
+            // Folders and Paths
+
+            IndexEntryFoldersAndPaths.CalculateFoldersAndPaths();
+
+            // #######################################################
             // NestedLoops
 
-            IndexEntryNestedLoops.CalculateIndexNestdLoops();
+            //IndexEntryNestedLoops.CalculateIndexNestdLoops();
 
             // #######################################################
             // Enum
@@ -111,6 +119,9 @@ namespace MyApp
 
             //    Console.ReadKey(); // Wartet auf eine Taste, damit die Konsole offen bleibt
             Console.ReadKey();
+            // Bei .Net Core schließt sich die Konsole nich von alleine,
+            // Bei .Net Framework muss man "Console.ReadKey()" verwenden,
+            // damit sich die Konsole nich von alleine schließt
            
         }
         

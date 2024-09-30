@@ -6,9 +6,9 @@ using System.Collections.Generic; // Hinzufügen des Namespaces für List<T>
 
 namespace MyApp.NestedLoops
 {
-    internal class NestedLoops
+    internal class NestedLoopsForeach
     {
-        public static void CalculateNestedLoops()
+        public static void CalculateNestedLoopForeach()
         {
             //Nested Loops
             List<Product> products = new List<Product>();
@@ -17,7 +17,7 @@ namespace MyApp.NestedLoops
             products.Add(new Product("Wasserkocher", new List<int> { 8, 2, 4, 1 }));
             products.Add(new Product("Kontaktgrill", new List<int> { 3, 3, 4, 5 }));
 
-            // Durchlaufen aller Produkte
+            //Durchlaufen aller Produkte
             foreach (Product product in products) // <- outer loop
             {
                 Console.WriteLine("Produkt: " + product.Name);
@@ -27,7 +27,6 @@ namespace MyApp.NestedLoops
                     Console.WriteLine($"{rating} * für das Produkt {product.Name}");
                 }
             }
-
         }
     }
 }
