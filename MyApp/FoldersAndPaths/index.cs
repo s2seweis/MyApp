@@ -9,7 +9,9 @@ namespace MyApp.FoldersAndPaths
         {
 
             //Methods.CalculateMethods();
-            CreateFolder.CalculateCreateMethods();
+            //CreateFolder.CalculateCreateMethods();
+
+            Paths.CalculatePaths();
 
         }
     }
