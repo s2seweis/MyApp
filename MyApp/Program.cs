@@ -11,10 +11,11 @@ using MyApp.Dictionaries;
 using MyApp.SwitchEnum;
 using MyApp.NestedLoops;
 
+using MyApp.Exceptions;
+
 using MyApp.FoldersAndPaths;
 using System;
 using System.IO;
-
 
 //With using you can include other namespaces
 
@@ -33,40 +34,45 @@ namespace MyApp
         {
 
             // #######################################################
+            // Exceptions 
+
+            IndexExceptions.CalculateIndexExceptions();
+
+            // #######################################################
             // Folders and Paths
 
-            IndexEntryFoldersAndPaths.CalculateIndexFolderAndPaths();
+            //IndexEntryFoldersAndPaths.CalculateIndexFolderAndPaths();
 
             // #######################################################
             // NestedLoops
 
-            //IndexEntryNestedLoops.CalculateIndexNestdLoops();
+            // IndexEntryNestedLoops.CalculateIndexNestdLoops();
 
             // #######################################################
             // Enum
 
-            //IndexEntrySwitchEnum.CalculateIndexSwitchEnum();
+            // IndexEntrySwitchEnum.CalculateIndexSwitchEnum();
 
             // #######################################################
-            //Dictionaries
+            // Dictionaries
 
-            //IndexEntryDictionary.CalculateIndexDictionary();
+            // IndexEntryDictionary.CalculateIndexDictionary();
 
 
             // #######################################################
             // Assignment - List
 
-            //IndexEntryAssignment.CalculateIndexAssignment();
+            // IndexEntryAssignment.CalculateIndexAssignment();
 
             // #######################################################
             // Create List
 
-            //IndexEntryThree.CalculateIndexThree();
+            // IndexEntryThree.CalculateIndexThree();
 
             // #######################################################
             // Bank Account Project
 
-            //IndexEntryTwo.CalculateIndexTwo();
+            // IndexEntryTwo.CalculateIndexTwo();
 
 
             // #######################################################
